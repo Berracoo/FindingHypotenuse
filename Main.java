@@ -1,8 +1,8 @@
 import java.util.Scanner;
-
+// importing the scanner class since we need to use it
 public class Main {
     public static void main(String[] args) {
-
+        // creating an scanner object
         Scanner value = new Scanner(System.in);
         System.out.print("Please enter the value that you've wanted : ");
         int a = value.nextInt();
