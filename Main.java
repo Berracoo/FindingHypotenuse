@@ -16,7 +16,7 @@ public class Main {
         // creating a temporary value
          double temp;
          double sqrt = num / 2;
-        // do-while loop is a loop that the do part works even if the condition is wrong.
+        // do-while loop is a loop that the do part works even if the while condition is wrong.
          do{
              temp = sqrt;
              sqrt = (temp + (num / temp)) / 2;
